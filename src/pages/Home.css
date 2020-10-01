@@ -1,0 +1,118 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(221, 172, 67); */
+    height: 100vh;
+}
+
+.home_header{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 30px;
+    align-items: center;
+}
+
+.home_header a{
+    margin-left: 20px;
+    text-decoration: inherit;
+    color: rgba(0,0,0,0.87);
+    font-size: 15px;
+}
+
+.home_header a:hover{
+    text-decoration: underline;
+}
+
+.home_headerRight{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 13vh;
+}
+
+.home_headerRight > .MuiSvgIcon-root{
+    margin-left: 20px;
+}
+
+.headerRight_icons{
+    margin-left: 10px;
+}
+
+/* body section of google-home */
+
+.home_body{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-top: 8%;
+    /* background-color: rgb(223, 219, 162); */
+}
+
+.home_body >img {
+    height: 100px;
+    object-fit: contain;
+}
+
+/* home footer*/
+.home_languages{
+    text-align: center;
+    font-size: 14px;
+    color: rgb(46, 43, 43);
+    padding-top: 17px;
+   
+}
+
+.languages{
+    color: blue;
+}
+
+
+
+
+.footer >hr{
+    height: 1px ;
+    border: 0;
+    background-color: rgb(206, 201, 201);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.home_coutry{
+    margin-left: 30px;
+    font-size: 16px;
+    color: rgba(70, 66, 66, 0.87);
+    
+}
+
+.home_footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px;
+}
+
+.home_footer  a{
+    margin-left: 20px;
+    text-decoration: inherit;
+    font-size: 15px;
+    color: rgba(0,0,0,0.87);
+}
+
+.home_footer a:hover{
+    text-decoration: underline;
+}
+
+
+.homeFooterLeft{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 13vh;
+}
+
+.homeFooterRight{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 13vh;
+
+}
